@@ -145,8 +145,44 @@
 .img-container{
     display: flex;
    margin-left: 120px;
+   
 }
  .box{
     margin: -70px;
-    padding: 20px;
+    padding-top: 50px;
  }  
+
+
+
+ /* Get The Latest Deals */
+ .deals-container{
+    background-image: url(/img/Rectangle\ 9.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 130px 0px 0px;
+ }
+ .deals{
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+ }
+
+.deals-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.deals-lorem{
+    color: gray;
+    margin: 20px;
+}
+ .input-Subscribe{
+
+ }
+ .input{
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-left: 450px;
+    border-radius: 5px;
+ }
