@@ -186,3 +186,27 @@
     margin-left: 450px;
     border-radius: 5px;
  }
+
+
+ /* footer */
+ .flower-shop-container{
+    background-color: black;
+    height: 300px;
+    padding-top: 50px;
+    font-family: ;
+    
+ }
+ /* .flower-shop-containerflower-shop{
+    margin-top: 30px;
+ } */
+
+ .flower-shop-title{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+ }
+ .flower-shop-lorem{
+    color: gray;
+    text-align: center;
+    padding: 20px;
+ }
