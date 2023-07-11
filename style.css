@@ -1,9 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-around;
     height: 100vh;
@@ -12,19 +12,19 @@
 
 }
 
-.title{
+.title {
     font-size: 50px;
     font-weight: 700px;
 }
 
-.banner-lorem{
+.banner-lorem {
     margin-top: 20px;
     color: rgb(77, 69, 69);
 }
 
-.banner-btn{
+.banner-btn {
     margin-top: 10px;
-    width:100px ;
+    width: 100px;
     height: 30px;
     padding: 5px;
     background-color: #E55473;
@@ -33,21 +33,71 @@
     border-radius: 5px;
 }
 
-.banner-img{
+.banner-img {
     width: 500px;
     height: 600px;
     margin-top: 25px;
-   
+
 }
 
 
-.Featured{
+.Featured {
     text-align: center;
     margin-top: 50px;
 }
 
 
-.Featured-lorem{
-   color: rgb(77, 69, 69);
-   margin: 10px;
+.Featured-lorem {
+    color: rgb(77, 69, 69);
+    margin: 10px;
 }
+
+/* main section */
+.box-container {
+    display: flex;
+    margin: 10px 240px 10px 240px;
+
+    .box1 {
+        width: 300px;
+        height: 300px;
+        background-color: #F2DEE7;
+        margin: 10px;
+        border-radius: 300px 300px 0px 0px;
+    }
+
+    .box2 {
+        width: 300px;
+        height: 300px;
+        background-color: #D9EFF1;
+        margin: 10px;
+        border-radius: 300px 300px 0px 0px;
+    }
+
+    .box3 {
+        width: 300px;
+        height: 300px;
+        background-color: #E3EBDB;
+        margin: 10px;
+        border-radius: 300px 300px 0px 0px;
+    }
+
+    .img {
+        width: 60%;
+        height: 90%;
+        margin-left: 40px;
+        padding-top: 30px;
+    }
+
+    .flower-name{
+        text-align: center;
+    }
+
+    /* Hot Deal ! Sale Up To 25% Off */
+    .off {
+        color: #E55473;
+    }
+
+    .hot-deal-container {
+        display: flex;
+        gap: 20px;
+    }
