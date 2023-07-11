@@ -41,172 +41,170 @@
 }
 
 
-
-.img-container{
-    padding: 40px;
-}
-
-
-
-/* 
-.mains{
-    height: 100vh;
-} */
+/* Our Featured Flowers */
 
 .Featured {
     text-align: center;
     margin-top: 50px;
 }
 
-
 .Featured-lorem {
-    color: rgb(77, 69, 69);
-    margin: 10px;
+    margin: 20px;
+    color: grey;
 }
 
-/* main section */
 .box-container {
     display: flex;
-    margin: 10px 240px 10px 240px;
-    
+    margin: 30px;
+    padding-left: 180px;
 }
 
-    .box1 {
-        width: 300px;
-        height: 300px;
-        background-color: #F2DEE7;
-        margin: 10px;
-        border-radius: 300px 300px 0px 0px;
-    }
+.box1 {
+    width: 300px;
+    height: 350px;
+    background-color: #F2DEE7;
+    margin: 10px;
+    border-radius: 300px 300px 0px 0px;
+}
 
-    .box2 {
-        width: 300px;
-        height: 300px;
-        background-color: #D9EFF1;
-        margin: 10px;
-        border-radius: 300px 300px 0px 0px;
-    }
+.box2 {
+    width: 300px;
+    height: 350px;
+    background-color: #D9EFF1;
+    margin: 10px;
+    border-radius: 300px 300px 0px 0px;
+}
 
-    .box3 {
-        width: 300px;
-        height: 300px;
-        background-color: #E3EBDB;
-        margin: 10px;
-        border-radius: 300px 300px 0px 0px;
-    }
+.box3 {
+    width: 300px;
+    height: 350px;
+    background-color: #E7EED4;
+    margin: 10px;
+    border-radius: 300px 300px 0px 0px;
+}
 
-    .img {
-        width: 60%;
-        height: 90%;
-        margin-left: 60px;
-        padding-top: 30px;
-    }
+.pic {
+    width: 200px;
+    height: 320px;
+    padding: 30px;
+    margin-left: 15px;
+}
 
-    .flower-name{
-        text-align: center;
-    }
+.flower-name {
+    text-align: center;
+}
 
 
 
-   
+/* support section */
+.support-container {
+    width: 950px;
+    height: 200px;
+    background-color: #F4F4F4;
+    margin-left: 220px;
+    margin-top: 20px;
+}
 
-    /* Hot Deal ! Sale Up To 25% Off */
-    .hot-deal-container{
-        display: flex;
-        justify-content: space-around;
-        background: #FCEEF1;
-        align-items: center;
-        text-align: center;
-        margin-top: 50px;
-        padding: 100px;
-    
-    }
-    .hot-title{
-        margin: 20px;
-        font-size:32px;
-    }
-    .off{
-        color: #E55473;
-    }
-    .hot-lorem{
-        color: rgb(129, 118, 118);
-    }
-    .btn{
-        margin: 20px;
-    }
+.imgs-content {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+
+}
+
+
+
+/* hot-deal-container  */
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    background: #FCEEF1;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.hot-title {
+    margin: 20px;
+    font-size: 32px;
+}
+
+.off {
+    color: #E55473;
+}
+
+.hot-lorem {
+    color: rgb(129, 118, 118);
+}
+
+.btn {
+    margin: 20px;
+}
+
 
 
 /* instagram */
-.instagram{
+.instagram {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
-.img-container{
+.img-container {
     display: flex;
-   margin-left: 120px;
-   
 }
- .box{
-    margin: -70px;
-    padding-top: 50px;
- }  
 
+.img {
+    width: 250px;
+    height: 300px;
+    margin: 40px;
+}
 
-
- /* Get The Latest Deals */
- .deals-container{
+/* Get The Latest Deals */
+.deals-container{
     background-image: url(/img/Rectangle\ 9.png);
-    height: 500px;
     background-repeat: no-repeat;
-    margin: 130px 0px 0px;
- }
- .deals{
+    height: 300px;
+    margin: 50px;
+    
+}
+.deals-container{
     text-align: center;
-    align-items: center;
     padding-top: 150px;
- }
-
+}
 .deals-title{
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 40px;
 }
 .deals-lorem{
-    color: gray;
+    font-size: 20px;
+    color: #646666;
     margin: 20px;
 }
- .input-Subscribe{
-
- }
- .input{
-    align-items: center;
+.input{
     width: 400px;
-    height: 40px;
+    height: 30px;
     border: none;
-    margin-left: 450px;
-    border-radius: 5px;
- }
+}
 
 
- /* footer */
- .flower-shop-container{
+
+
+.footer{
+    text-align: center;
     background-color: black;
-    height: 300px;
-    padding-top: 50px;
-    font-family: ;
-    
- }
- /* .flower-shop-containerflower-shop{
+    height: 200px;
+    color:white ;
+    padding:80px;
+}
+.flower{
+    font-size: 42px;
+    margin: 10px;
+}
+.flower-lorem{
+    margin: 20px;
+    color: #D9EFF1;
+}
+.flower-text{
     margin-top: 30px;
- } */
-
- .flower-shop-title{
-    color: white;
-    text-align: center;
-    margin-top: 30px;
- }
- .flower-shop-lorem{
-    color: gray;
-    text-align: center;
-    padding: 20px;
- }
+    color: #646666;
+}
