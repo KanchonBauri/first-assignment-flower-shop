@@ -41,6 +41,18 @@
 }
 
 
+
+.img-container{
+    padding: 40px;
+}
+
+
+
+/* 
+.mains{
+    height: 100vh;
+} */
+
 .Featured {
     text-align: center;
     margin-top: 50px;
@@ -56,6 +68,8 @@
 .box-container {
     display: flex;
     margin: 10px 240px 10px 240px;
+    
+}
 
     .box1 {
         width: 300px;
@@ -84,7 +98,7 @@
     .img {
         width: 60%;
         height: 90%;
-        margin-left: 40px;
+        margin-left: 60px;
         padding-top: 30px;
     }
 
@@ -92,12 +106,47 @@
         text-align: center;
     }
 
+
+
+   
+
     /* Hot Deal ! Sale Up To 25% Off */
-    .off {
+    .hot-deal-container{
+        display: flex;
+        justify-content: space-around;
+        background: #FCEEF1;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        padding: 100px;
+    
+    }
+    .hot-title{
+        margin: 20px;
+        font-size:32px;
+    }
+    .off{
         color: #E55473;
     }
-
-    .hot-deal-container {
-        display: flex;
-        gap: 20px;
+    .hot-lorem{
+        color: rgb(129, 118, 118);
     }
+    .btn{
+        margin: 20px;
+    }
+
+
+/* instagram */
+.instagram{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.img-container{
+    display: flex;
+   margin-left: 120px;
+}
+ .box{
+    margin: -70px;
+    padding: 20px;
+ }  
